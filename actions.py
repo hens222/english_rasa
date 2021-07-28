@@ -10,5 +10,5 @@ class FirstAction(Action):
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        dispatcher.utter_message(test="I am the first action")
+        dispatcher.utter_message("I am the first action")
         return []
