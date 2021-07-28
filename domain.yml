@@ -13,7 +13,7 @@ responses:
   utter_happy:
     - text: "Great, carry on!"
   utter_goodbye:
-    -text: "Bye"
+     - text: "Bye"
   utter:_iambot:
     - text: "I am a bot, powered by Rasa"
 
