@@ -1,4 +1,4 @@
-language: he
+language: en
 pipeline:
   - name: WhitespaceTokenizer
   - name: RegexFeaturizer
