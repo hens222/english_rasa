@@ -1,0 +1,39 @@
+version: "2.0"
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - nightnight
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - see you later
+- intent: first_intent
+  examples: |
+    - hello world
+    - tell me what is your first action
+    - how are you
+    - how created you
+    - what is your purpose
+
+
